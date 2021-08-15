@@ -1,0 +1,12 @@
+{
+  "name": "react_from_scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johnmogi/Re-react.git",
+  "author": "johnmogi <anguru@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "git": "git add --all && git commit -m",
+    "postgit": "git push --all"
+  }
+}
