@@ -12,6 +12,7 @@ import "./main.css";
 export default function Main() {
   return (
     <div className="main">
+      
       <Switch>
         <Route exact path="/home">
           <Home />

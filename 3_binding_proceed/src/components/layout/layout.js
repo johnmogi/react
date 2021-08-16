@@ -17,6 +17,7 @@ export default function Layout() {
         <CssBaseline />
         <Container maxWidth="lg" fixed>
           <Header />
+          
           <Typography
             component="div"
             style={{ backgroundColor: "#cfe8fc", height: "80vh" }}

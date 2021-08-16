@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+   
   },
 }));
 
@@ -38,7 +39,9 @@ export default function Header() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" className={classes.title}>
-              The Best site structured react mui
+            <NavLink to="/home" >
+              Mui
+              </NavLink> 
             </Typography>
 
             <div className="menu">

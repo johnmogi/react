@@ -10,6 +10,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
+import Heading from "../../layout/heading/heading";
 
 const useStyles = makeStyles({
   root: {
@@ -21,6 +22,7 @@ export default function Home() {
   const classes = useStyles();
   return (
     <div className="home">
+      <Heading title="Wellcome" color="red" />
       <Grid
         container
         spacing={0}

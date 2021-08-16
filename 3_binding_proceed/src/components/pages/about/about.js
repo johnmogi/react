@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.css";
+import Heading from "../../layout/heading/heading";
+
 
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -21,6 +23,8 @@ export default function About() {
   const classes = useStyles();
   return (
     <div className="about">
+            <Heading title="About us" />
+
       <Grid
         container
         spacing={0}
@@ -35,7 +39,7 @@ export default function About() {
               <CardMedia
                 style={{ height: 0, paddingTop: "56%" }}
                 className={classes.media}
-                image="/assets/dog.jpeg"
+                image="/assets/cat.jpeg"
                 title="Paella dish"
               />
               <CardContent>
